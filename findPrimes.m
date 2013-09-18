@@ -3,7 +3,7 @@
         for testing=3:2:x
             index=1;
             newprime=1;
-            while ((primes(index)<=floor(sqrt(testing)))&&(index<numel(primes)))
+            while ((primes(index)<=floor(sqrt(testing)))&&(index<numel(primes))&&(newprime~=0))
                 if(testing/primes(index)==floor(testing/primes(index)))
                    newprime=0; 
                 end
